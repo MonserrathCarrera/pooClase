@@ -8,24 +8,9 @@ public class PooClase {                                                 //CLASE 
     int modelo;
     private int doble;
 
-    /*  public PooClase(int saldo) {                                    // EJERCICIO DE CLASAE MARTES
-        this.saldo = saldo;
-    }
     
-public void CuentasAbonar (int saldo){
-   this.saldo += saldo;
-    }
-public void CuentasDebito (int saldo){
-    this.saldo -= saldo;
-    }*/
     public void ProductoElectronico() {// CLASE PRODUCTO ELECTRONICO
-        getPrecioElectronico();// MÉTODOS GET
-        getMarcaElectronico();
-        getModeloElectronico();
-        setPrecioElectronico(double PrecioElectronic);// MÉTODOS SET 
-        setPrecioElectronico(Srtring  MarcaElectronico );
-        setPrecioElectronico(Srtring  ModeloElectronico);
-
+     
       }
     
     private int getPrecioElectronico() {  // MÉTODOS GET
