@@ -1,12 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author monse
- */
-public class TelefonoMovil {
-    
+
+package PooClase; 
+public class TelefonoMovil extends ProductoElectronico {
+   int CapacidadAlmacenamiento;                                                          
+   int DuracionBateria;
+
+    public int getCapacidadAlmacenamiento() {
+        return CapacidadAlmacenamiento;
+    }
+
+    public void setCapacidadAlmacenamiento(int CapacidadAlmacenamiento) {
+        this.CapacidadAlmacenamiento = CapacidadAlmacenamiento;
+    }
+
+    public int getDuracionBateria() {
+        return DuracionBateria;
+    }
+
+    public void setDuracionBateria(int DuracionBateria) {
+        this.DuracionBateria = DuracionBateria;
+    }
+
 }
